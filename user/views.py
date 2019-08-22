@@ -8,3 +8,6 @@ def user_model(request):
 
 def login(request):
     return HttpResponse("this is login")
+
+def register(request):
+    return HttpResponse("this is register")
